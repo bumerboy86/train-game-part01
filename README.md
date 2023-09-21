@@ -11,7 +11,7 @@
 
 > Склонируйте проект
 
-- [git clone https://github.com/bumerboy86/train-game-part01.git]
+- git clone https://github.com/bumerboy86/train-game-part01.git
 
 > Войдите в дирректорию с проектом
 

@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+# Snake (Train-game) React + TypeScript + Vite the game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Node.js](https://img.shields.io/badge/Node.js-v20.2.0.-green)](https://nodejs.org/ru)
 
-Currently, two official plugins are available:
+> Установите Node.js. Первым шагом убедитесь, что на вашем компьютере установлен Node.js для этого откройте терминал и выполните команду node -v должен показать версию например v20.2.0 и npm -v пример 9.8.1. Если нет, вы можете скачать его с официального сайта Node.js и установить
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Для Linux (Ubuntu/Debian)
+- sudo apt update
+- sudo apt install nodejs
+- sudo apt install npm
 
-## Expanding the ESLint configuration
+> Склонируйте проект
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [git clone https://github.com/bumerboy86/train-game-part01.git]
 
-- Configure the top-level `parserOptions` property like this:
+> Войдите в дирректорию с проектом
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- cd train-game-part01
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+> Установите зависимости
+
+- npm install
+
+## Запуск игры
+
+- npm run dev
+
+## Информация
+
+- Результат первого урока по созданию игры на подобии змейки
+
+## Лицензия
+
+- MIT License можно копировать и использовать без согласия автора
